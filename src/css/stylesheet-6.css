@@ -1,0 +1,169 @@
+* {
+	font-family: "Montserrat", sans-serif !important;
+}
+
+.navbar-toggle {
+	margin: 5%;
+	border: none;
+}
+
+.menu {
+	text-align: right;
+}
+
+.page-header {
+	font-size: 24px;
+	text-align: center;
+}
+
+.pitch {
+	padding-bottom: 3%;
+	/* text-align: center; */
+}
+
+.pitch-to {
+	font-weight: lighter;
+}
+
+.pitch-para {
+	width: 80%;
+}
+
+.program-location {
+	text-transform: none;
+}
+
+.box-content {
+	display: flex;
+	gap: 10px;
+}
+
+.calender-icon {
+	width: 25px;
+	height: 25px;
+}
+
+.icon-component-text {
+	font-size: 16px !important;
+}
+
+.btn {
+	background-color: #407bff;
+	opacity: 1;
+	width: 40%;
+	border: none;
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
+	margin-top: -5%;
+	font-size: 12px;
+}
+
+.funding-ill {
+	width: 100%;
+	display: block;
+	align-items: center;
+	margin-top: 5%;
+	/* gap: 100px; */
+}
+
+.funding-left,
+.funding-right {
+	width: 100%;
+}
+
+.funding-left {
+	margin-bottom: -20px;
+}
+.funding-right {
+	margin-top: -20px;
+}
+
+.funding-p {
+	color: grey;
+	font-size: 24px;
+	text-align: center;
+}
+
+.offline {
+	margin-top: -5%;
+}
+
+.coin {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	padding-top: 3%;
+	width: 50%;
+}
+
+.line {
+	height: 30%;
+	transform: rotate(90deg);
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
+}
+
+.amount {
+	opacity: 1 !important;
+	font-size: 64px;
+	color: #000;
+}
+
+.parent-conatiner-flex {
+	display: block !important;
+}
+
+.program-view-mentor-profile {
+	border-radius: 8px;
+	width: 30%;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.mentor-title {
+	text-align: center;
+	opacity: 0.6;
+}
+
+.faqs {
+	width: 70%;
+}
+
+.block-title {
+	text-align: center;
+	padding-bottom: 2%;
+}
+
+.apply {
+	margin-top: 20px;
+}
+
+@media (min-width: 720px) {
+	.offline {
+		margin-top: 10px;
+	}
+
+	.funding-ill {
+		display: flex;
+	}
+
+	.line {
+		transform: rotate(0deg);
+	}
+
+	.mentors {
+		display: flex;
+	}
+
+	.program-view-mentor-profile {
+		width: 40%;
+	}
+}
+
+@media (min-width: 1024px) {
+	.apply {
+		font-size: 24px;
+	}
+}
